@@ -2,10 +2,15 @@
 //We've got some basic info about Karen's home
 //Debug the type of data provided
 //Return the types concatenated in a single variable
+let moreAboutHome = (address,distanceFromTown,hasNeighbours) => {
+    let datatype = typeof address + typeof distanceFromTown + typeof hasNeighbours;
+    return datatype;
+}
 
 //Progression 2:
 //Check if the data given is of the right type
 //parents = String, noOfSiblings = Number, isNuclearFamily = Boolean
+
 
 //Progression 3:
 //Lily is suspicious about Karen's new friend
